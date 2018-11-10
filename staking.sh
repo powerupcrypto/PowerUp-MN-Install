@@ -52,6 +52,11 @@ echo "daemon=1" >> puc.conf
 echo "logtimestamps=1" >> puc.conf
 echo "maxconnections=256" >> puc.conf
 echo "port=1515" >> puc.conf
+echo "addnode=104.248.245.1" >> puc.conf
+echo "addnode=104.248.241.143" >> puc.conf
+echo "addnode=104.248.43.220" >> puc.conf
+echo "addnode=178.62.24.233" >> puc.conf
+
 mv puc.conf .puc
 
   
