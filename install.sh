@@ -254,6 +254,10 @@ bind=${IP}:1515
 masternodeaddr=${IP}
 masternodeprivkey=${KEY}
 masternode=1
+addnode=104.248.241.143
+addnode=104.248.245.1
+addnode=104.248.43.220
+addnode=178.62.24.233
 EOL
 chmod 0600 $USERHOME/.puc/puc.conf
 chown -R $USER:$USER $USERHOME/.puc
